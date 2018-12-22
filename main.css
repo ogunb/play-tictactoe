@@ -13,12 +13,7 @@ body {
 	background: linear-gradient(160deg, #3824b6, #d371df);
 	transform: rotate(-10deg);
 	color: #f7f7f7;
-	-webkit-touch-callout: none; /* iOS Safari */
-	-webkit-user-select: none; /* Safari */
-	-khtml-user-select: none; /* Konqueror HTML */
-	-moz-user-select: none; /* Firefox */
-	-ms-user-select: none; /* Internet Explorer/Edge */
-	user-select: none; /* Non-prefixed version, currently */
+	user-select: none;
 	position: relative;
 	cursor: pointer;
 }
