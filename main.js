@@ -55,7 +55,7 @@ class TicTacToe {
         return this.displayWinner();
       }
     });
-    if (this.turn >= 9) {
+    if (this.turn >= 10) {
       this._defaults();
       this._render('DRAW');
     }
